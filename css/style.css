@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+
+/* selector universal */
+*{
+	box-sizing: border-box;
+	/* descuenta del width y height, lo sumado en padding y border */
+}
+.cleaner{clear: both;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	/*
+		margin-top: ;
+		margin-right: ;
+		margin-bottom: ;
+		margin-left: ;
+	*/
+}
+img{max-width: 100%;}
+/* Resets */
+
+/* agrupación de selectores */
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+img{/*max-width: 100%;*/
+	margin: left;
+	
+	
+}
+
+p,
+h3
+{
+	padding:0 20px;
+}
+ol{
+	padding: 0 40px;
+	list-style-type: disc;
+}
+/* Resets */
+
+.header{
+	background-color: #ed1e69;
+}
+
+.box_left{
+	float: left;
+	/*background-color: red;
+	border-left: 20px solid #ed1e69;*/
+	margin-left: 20px;
+	/*width: 220px;
+	height: 186px;*/
+}
+
+.box_right{
+	float: right;
+	background-color: #ed1e69;
+	width: 50%;
+}
+
+.datos{
+	/*background-color: yellow;*/
+	width: 1200px;
+}
+
+.titulo_principal{
+	color: white;
+	float: left;
+	width: 20%;
+	margin-top: 50px;
+	margin-left: 2%;
+}
+.titulo_principal li{
+position: relative;
+	text-align: left;
+}
+.titulo_principal i{
+	font-size: 25px;
+}
+.titulo_principal h2{
+	position: absolute;
+	top: -45px;
+	padding-left: 35px;
+}
+
+.mail{
+	float: right;
+	clear: right;
+	color: #fff;
+	font-size: 8px;
+	padding-right: 20px;
+	margin-top: 140px;
+	
+}
+
+.main_nav{
+	float: right;
+	display: block;
+	padding-right:20px;
+}
+.main_nav li{
+	float: left;
+	margin: 5px 0 0 15px;
+}
+.main_nav i{
+	color: #fff;
+}
+
+.titulo_datos{
+	background-color: #000;
+	color: #fff;
+	padding-left: 20px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+ul{
+	list-style: none; /* elimina la viñeta */
+	margin: 0;
+	padding: 0;
+	/*
+		padding-top: ;
+		padding-right: ;
+		padding-bottom: ;
+		padding-left: ;
+	*/
+}
+li{
+	position: relative;
+	text-align: left;
+}
+.titulo_datos h4{
+	position: absolute;
+	top: -40px;
+	padding-left: 30px;
+}
+.titulo_datos i{
+	font-size: 15px;
+
+}
+.formulario{
+	border-top: 40px solid #ed1e69;
+	margin-top: 40px;
+	width: 1200px;
+}
+.formulario h3{
+font-size: 8px;
+}
+.formulario div{
+	display: block;
+	float: left;
+	margin: 5px 0 0 15px;
+}
+
+.footer_bar{
+	float: right;
+	display: block;
+	padding-right:20px;
+}
+
+.footer_bar li{
+	float: left;
+	margin: 5px 0 0 15px;
+}
+
+	.logos{
+		/*float: none;
+		display: inline block;
+		text-align: right;*/
+		float: left;
+		margin: 20px 0;
+		width: 20%;
+		text-align: center;
+
+	}
+
+	.register2-left{
+	float: left;
+	width: 48%;
+	padding-left: 1%;
+}
+.register2-left input,
+.register2-right textarea{
+	display: block;
+	padding-left: 20px;
+	width: 100%;
+	border: solid 1px #bfbfbf;
+}
+.register2-left input{
+	height: 50px;
+	margin-bottom: 30px;
+}
+.register2-right textarea{
+	height: 130px;
+	padding-top: 10px;
+	outline: none;
+	box-shadow: none;
+}
+.register2-right{
+	float: right;
+	width: 48%;
+	padding-right: 1%;
+
+}
+.form-button{
+	text-align: center;
+}
+
+
+	.form-button button{
+	border: none;
+	margin-top: 10px;
+	width: 10%;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: none;
+	background-color: #ed1e69;
+	height: 30px;
+	color: #fff;
+	font-family: inherit;
+	border-radius: 5px;
+	}
+
+
+	/*MEDIA*/
+	@media (max-width:960px) {
+	.container, .main-header {
+		width: 95%;
+		margin:auto;
+	}
+
+	.box_right{
+	width: 50%;
+}
+.logos{
+		width: 50%;
+		margin: auto;
+	}
+	.main_nav{
+		width: 100%;
+		margin: auto;
+		padding-top: 25%;
+	}
+}
