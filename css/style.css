@@ -60,7 +60,7 @@ ol{
 .box_right{
 	float: right;
 	background-color: #ed1e69;
-	width: 50%;
+	/*width: 50%;*/
 }
 
 .datos{
